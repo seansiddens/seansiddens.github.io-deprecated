@@ -45,15 +45,15 @@ If software quality is not taken seriously, systems are left extremely vulnerabl
 The importance of quality software isn’t only for the convenience of consumers or for the profit of companies: it is imperative to the safety and security of the critical systems which run our world.
 
 
-<img src="assets/colonial_pipeline_headline.png" alt="Headline of Colonial Pipeline attack."/>
+<img src="/assets/colonial_pipeline_headline.png" alt="Headline of Colonial Pipeline attack."/>
 
 So the question is: how did we get here? Why, after over 70 years of experience and billions of dollars of investment, does the field of software engineering seem to be declining in quality? Why do so many in the industry share the feeling that the modern state of software is the worst it’s ever been? At first glance, the idea that software quality is stagnating or even declining over time seems counterintuitive.
 Usually in other engineering fields the quality of engineering improves in relation to the advancements in technology.
 However, the software field has had faster advancements in technology than any other engineering field in history.
 The machines which current software engineers work with are several orders of magnitude faster than the machines from less than a generation ago.
-For example, in 1978 Intel released their 16-bit 8086 processor.
+For example, in 1978 Intel released their [16-bit 8086 processor](https://en.wikipedia.org/wiki/Intel_8086#Performance).
 It had a clock speed of 10 megahertz and a feature size of 3 µm (3 ten-thousandths of a centimeter).
-Nowadays, the latest 11th Generation Intel® Core™ i9 Processors have a clock speed of 4.90 gigahertz and a feature size of 14 nm (14 ten-millionths of a centimeter).
+Nowadays, the latest [11th Generation Intel® Core™ i9 Processors](https://www.intel.com/content/www/us/en/products/details/processors/core/i9.html) have a clock speed of 4.90 gigahertz and a feature size of 14 nm (14 ten-millionths of a centimeter).
 However, this exponential growth of processing power has been of no substantial benefit to the quality of our software. 
 
 
