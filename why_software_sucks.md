@@ -4,6 +4,7 @@ title: Why Software Sucks
 permalink: /why_software_sucks/
 ---
 
+<img src="/assets/bluescreen.jpg" alt="Windows bluescreen of death."/>
 
 Our world is completely reliant on software. 
 Many of our most critical systems, from airplane navigation to power plant shutdown procedures, are completely automated by software.
@@ -55,5 +56,14 @@ For example, in 1978 Intel released their [16-bit 8086 processor](https://en.wik
 It had a clock speed of 10 megahertz and a feature size of 3 µm (3 ten-thousandths of a centimeter).
 Nowadays, the latest [11th Generation Intel® Core™ i9 Processors](https://www.intel.com/content/www/us/en/products/details/processors/core/i9.html) have a clock speed of 4.90 gigahertz and a feature size of 14 nm (14 ten-millionths of a centimeter).
 However, this exponential growth of processing power has been of no substantial benefit to the quality of our software. 
+
+
+
+In his 1972 ACM Turing Award lecture, Edsger Dijkstra remarked that, in the early days of programming (1950’s), many believed that “programming would no longer be a problem” once more powerful machines would become available.
+Back then, the power of machines was so limited that the primary role of the programmer was to come up with clever tricks which would lower the running time of their program.
+However, Dijkstra pointed out that just the opposite happened: more powerful machines only introduced more problems.
+This is due to the fact that with greater processing power came a greater ambition to apply the full potential of these machines, which left the programmer “in this exploded field of tension between ends and means” (Dijkstra).
+The possibilities of what can be accomplished with software grows as computer technology does.
+Djikstra’s observations of this phenomenon back in the 70’s are only more prevalent today, as hardware has only further progressed.
 
 
