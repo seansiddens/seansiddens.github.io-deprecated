@@ -4,7 +4,7 @@ title: Why Software Sucks
 permalink: /why_software_sucks/
 ---
 
-<img src="/assets/bluescreen.jpg" alt="Windows bluescreen of death."/>
+<img src="/assets/bluescreen.jpg" alt="Windows bluescreen of death." width=500/>
 
 Our world is completely reliant on software. 
 Many of our most critical systems, from airplane navigation to power plant shutdown procedures, are completely automated by software.
