@@ -1,3 +1,7 @@
+a {
+    color: cornflowerblue;
+}
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -10,34 +14,18 @@ hr {
 }
 
 
-.header a {
-    color: black;
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 20%;
+    max-width: 20%;
+    padding: 0 4px;
 }
 
-.header h1 {
-    font-family: sans-serif;
-}
-
-a {
-    color: cornflowerblue;
-}
-
-.section-title {
-    font-size: x-large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.section-content img {
-    max-width: 33%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#header hr {
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
     width: 100%;
 }
-
 .content {
     padding-top: 3%;
     padding-left: 5%;
@@ -46,33 +34,27 @@ a {
     font-family: sans-serif;
 }
 
+.gallery-img-container {
+    position: relative;
+}
+
+.gallery-img-container:hover .overlay {
+    opacity: .85; 
+}
 
 .header {
     margin-top: 1%;
     text-align: center;
 }
 
-#nav-bar a {
-    text-align: center;
-    padding: 1%; 
-    font-size: 18px;
-    text-decoration: none;
+.header a {
+    color: black;
 }
 
-#nav-bar a:hover {
-    font-style: italic;
+.header h1 {
+    font-family: sans-serif;
 }
 
-#picture-of-me {
-    padding: 1%;
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-}
-
-.gallery-img-container {
-    position: relative;
-}
 .overlay {
     position: absolute;
     top: 0;
@@ -99,24 +81,41 @@ a {
     text-align: center;
 }
 
-.gallery-img-container:hover .overlay {
-    opacity: .85; 
-}
-
 .row {
     display: flex;
     padding: 0 4px;
 }
-  
-/* Create four equal columns that sits next to each other */
-.column {
-    flex: 20%;
-    max-width: 20%;
-    padding: 0 4px;
+
+.section-content img {
+    max-width: 33%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
+.section-title {
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#header hr {
     width: 100%;
+}
+
+#nav-bar a {
+    text-align: center;
+    padding: 1%; 
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#nav-bar a:hover {
+    font-style: italic;
+}
+
+#picture-of-me {
+    padding: 1%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
 }
