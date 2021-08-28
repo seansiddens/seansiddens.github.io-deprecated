@@ -1,0 +1,47 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr {
+    height: 3px;
+    background-color: rgb(78, 80, 82);
+    border: 0px;
+
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+.section-title i {
+    font-size: x-large;
+}
+
+#header hr {
+    width: 100%;
+}
+
+#content {
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 18px;
+    
+}
+
+#header {
+    margin-top: 1%;
+    text-align: center;
+}
+
+#nav-bar a {
+    padding: 1%; 
+    font-size: 18px;
+}
+
+#picture-of-me {
+    padding: 1%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
