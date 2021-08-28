@@ -52,17 +52,20 @@ a {
     height: auto;
     border-radius: 50%;
 }
+.row {
+    display: flex;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 20%;
+    max-width: 20%;
+    padding: 0 4px;
+  }
 
-#gallery-contents {
-    line-height: 0;
-    -webkit-column-count: 5; /* split it into 5 columns */
-    -webkit-column-gap: 5px; /* give it a 5px gap between columns */
-    column-count: 5;
-    column-gap: 5px;
-}
-
-#gallery-contents img {
-    width: 100% !important;
-    height: auto !important;
-    margin-bottom: 5px;
-}
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
