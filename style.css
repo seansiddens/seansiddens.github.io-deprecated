@@ -13,6 +13,7 @@ a {
     color: rgb(0, 0, 0);
 }
 
+
 .section-title i {
     font-size: x-large;
 }
@@ -28,7 +29,7 @@ a {
     font-size: 18px;
 }
 
-#header {
+.header {
     margin-top: 1%;
     text-align: center;
 }
@@ -44,4 +45,18 @@ a {
     max-width: 100%;
     height: auto;
     border-radius: 50%;
+}
+
+#gallery-contents {
+    line-height: 0;
+    -webkit-column-count: 5; /* split it into 5 columns */
+    -webkit-column-gap: 5px; /* give it a 5px gap between columns */
+    column-count: 5;
+    column-gap: 5px;
+}
+
+#gallery-contents img {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 5px;
 }
