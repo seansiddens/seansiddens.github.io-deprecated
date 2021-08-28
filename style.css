@@ -22,12 +22,13 @@ a {
     width: 100%;
 }
 
-#content {
+.content {
     padding-top: 3%;
     padding-left: 5%;
     padding-right: 5%;
     font-size: 18px;
 }
+
 
 .header {
     margin-top: 1%;
@@ -38,6 +39,11 @@ a {
     text-align: center;
     padding: 1%; 
     font-size: 18px;
+    text-decoration: none;
+}
+
+#nav-bar a:hover {
+    font-style: italic;
 }
 
 #picture-of-me {
