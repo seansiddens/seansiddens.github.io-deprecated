@@ -12,6 +12,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet"> 
+        <!-- MathJax -->
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     </head>
     <body>
         <div class="header">
@@ -49,7 +52,7 @@
                             <li><a href="https://github.com/seansiddens">Github</a></li>
                             <li><a href="https://www.linkedin.com/in/sean-siddens-5a7929185/">LinkedIn</a></li>
                             <li><a href="https://twitter.com/SeanSiddens">Twitter</a></li>
-                            <li><a href="mailto:seansiddens@gmail.com">Contact Me</a></li>
+                            <li style="text-decoration: underline;">Email: seansiddens@gmail.com</li>
                         </ul>
 
                     </td>
@@ -66,47 +69,133 @@
             <div class="row">
                 <!-- Column 1 -->
                 <div class="column">
-                    <a href="images/mandelbrot.png" target="_blank" rel="noopener noreferrer">
-                        <img src="images/mandelbrot_small.png" alt="Density plot of eigenvalues of tridiagonal matrices.">
-                    </a>
-                    <a href="images/tridiagonal.png" target="_blank" rel="noopener noreferrer">
+                    <div class="gallery-img-container">
+                        <img src="images/mandelbrot_small.png" alt="Rendering of the Mandelbrot set using the escape time iteration algorithm.">
+                        <div class="overlay">
+                            <div class="overlay-text"> 
+                                <p>Rendering of the Mandelbrot set using the escape time iteration algorithm.</p>
+                                <a href="https://github.com/seansiddens/Mandelbrot" target="_blank" rel="noopener noreferrer" title="See on GitHub">
+                                    <img src="images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" style="width: 10%;">
+                                </a>
+                                <p><a href="images/mandelbrot.png" target="_blank" rel="noopener noreferrer" style="color: white; font-size: small;">Click to see full image</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-img-container">
                         <img src="images/tridiagonal_small.png" alt="Density plot of eigenvalues of tridiagonal matrices.">
-                    </a>
+                        <div class="overlay">
+                            <div class="overlay-text"> 
+                                <p>Density plot of eigenvalues of tridiagonal matrices.</p>
+                                <a href="https://github.com/seansiddens/BohemianMatrices" target="_blank" rel="noopener noreferrer" title="See on GitHub">
+                                    <img src="images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" style="width: 10%;">
+                                </a>
+                                <p><a href="images/tridiagonal.png" target="_blank" rel="noopener noreferrer" style="color: white; font-size: small;">Click to see full image</a></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- Column 2 -->
                 <div class="column">
-                    <a href="images/beta.png" target="_blank" rel="noopener noreferrer">
-                        <img src="images/beta_small.png" alt="Density plot of eigenvalues from continuous sample of matrices.">
-                    </a>
-                    <a href="images/littlewood_fractal.png" target="_blank" rel="noopener noreferrer">
-                        <img src="images/littlewood_fractal_small.png" alt="Density plot of eigenvalues from continuous sample of matrices.">
-                    </a>
+                    <div class="gallery-img-container">
+                        <img src="images/beta_small.png" alt="Density plot of eigenvalues of a random sample of matrices whose entries lie in the beta distribution.">
+                        <div class="overlay">
+                            <div class="overlay-text"> 
+                                <p>Density plot of eigenvalues of a random sample of matrices whose entries lie in the beta distribution.</p>
+                                <a href="https://github.com/seansiddens/BohemianMatrices" target="_blank" rel="noopener noreferrer" title="See on GitHub">
+                                    <img src="images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" style="width: 10%;">
+                                </a>
+                                <p><a href="images/beta_small.png" target="_blank" rel="noopener noreferrer" style="color: white; font-size: small;">Click to see full image</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-img-container">
+                        <img src="images/littlewood_fractal_small.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-text"> 
+                                <p>Density plot of eigenvaules of the companion matrices of degree 23 Littlewood polynomials.</p>
+                                <a href="https://github.com/seansiddens/BohemianMatrices" target="_blank" rel="noopener noreferrer" title="See on GitHub">
+                                    <img src="images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" style="width: 10%;">
+                                </a>
+                                <p><a href="images/littlewood_fractal.png" target="_blank" rel="noopener noreferrer" style="color: white; font-size: small;">Click to see full image</a></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- Column 3 -->
                 <div class="column">
-                    <a href="images/eigenvalue_rotation.gif" target="_blank" rel="noopener noreferrer">
-                        <img src="images/eigenvalue_rotation.gif" alt="GIF of density plot of matrices with parameters being rotated over time.">
-                    </a>
-                    <a href="images/littlewood_zoom.png" target="_blank" rel="noopener noreferrer">
-                        <img src="images/littlewood_zoom.png" alt="A zoomed in photo of the Littlewood fractal.">
-                    </a>
+                    <div class="gallery-img-container">
+                        <img src="images/eigenvalue_rotation.gif" alt="Density plot of eigenvalues of matrices whose samples are changing over time.">
+                        <div class="overlay">
+                            <div class="overlay-text"> 
+                                <p>Density plot of eigenvalues of matrices whose samples are changing over time.</p>
+                                <a href="https://github.com/seansiddens/BohemianMatrices" target="_blank" rel="noopener noreferrer" title="See on GitHub">
+                                    <img src="images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" style="width: 10%;">
+                                </a>
+                                <p><a href="images/eigenvalue_rotation.gif" target="_blank" rel="noopener noreferrer" style="color: white; font-size: small;">Click to see full image</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-img-container">
+                        <img src="images/littlewood_zoom.png" alt="A zoom in on a point in the Littlewood fractal.">
+                        <div class="overlay">
+                            <div class="overlay-text"> 
+                                <p>A zoom in on a point in the Littlewood fractal.</p>
+                                <a href="https://github.com/seansiddens/BohemianMatrices" target="_blank" rel="noopener noreferrer" title="See on GitHub">
+                                    <img src="images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" style="width: 10%;">
+                                </a>
+                                <p><a href="images/littlewood_zoom.png" target="_blank" rel="noopener noreferrer" style="color: white; font-size: small;">Click to see full image</a></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- Column 4 -->
                 <div class="column">
-                    <a href="images/newton_fractal.png" target="_blank" rel="noopener noreferrer">
-                        <img src="images/newton_fractal.png" alt="Julia set for the rational function associated to Newton's method for f(z) = z^3 - 1.">
-                    </a>
-                    <a href="images/triangle_chaos_game.png" target="_blank" rel="noopener noreferrer">
-                        <img src="images/triangle_chaos_game_small.png" alt="Triangle-shaped attractor of a linear iterated function system.">
-                    </a>
+                    <div class="gallery-img-container">
+                        <img src="images/newton_fractal.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-text"> 
+                                <p>Newton fractal created by applying Newton's method to the complex function 
+                                    <br>
+                                    \(f(z) = z^3 - 1\). 
+                                    <br>
+                                    Color is determined by what root the point converges to.
+                                </p>
+                                <a href="https://github.com/seansiddens/NewtonFractals" target="_blank" rel="noopener noreferrer" title="See on GitHub">
+                                    <img src="images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" style="width: 10%;">
+                                </a>
+                                <p><a href="images/newton_fractal.png" target="_blank" rel="noopener noreferrer" style="color: white; font-size: small;">Click to see full image</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-img-container">
+                        <img src="images/triangle_chaos_game_small.png" alt="Attractor of a linear iterated function system. Created by following the chaos game.">
+                        <div class="overlay">
+                            <div class="overlay-text"> 
+                                <p>Attractor of a linear iterated function system. Created by following the chaos game.</p>
+                                <a href="https://gist.github.com/seansiddens/3b8d41e5d013acbff96489f170eb81db" target="_blank" rel="noopener noreferrer" title="See on GitHub">
+                                    <img src="images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" style="width: 10%;">
+                                </a>
+                                <p><a href="images/triangle_chaos_game.png" target="_blank" rel="noopener noreferrer" style="color: white; font-size: small;">Click to see full image</a></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- Column 5 -->
                 <div class="column">
-                    <a href="images/sierpinski_chaos_game.png" target="_blank" rel="noopener noreferrer">
-                        <img src="images/sierpinski_chaos_game.png" alt="Sierpinski triangle attractor of an iterated function system">
-                    </a>
-                    <a href="images/sphere-cube.gif" target="_blank" rel="noopener noreferrer">
-                        <img src="images/sphere_cube.gif" alt="Sierpinski triangle attractor of an iterated function system">
+                    <div class="gallery-img-container">
+                        <img src="images/sierpinski_chaos_game.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-text"> 
+                                <p>Sierpinski triangle attractor of a linear iterated function system. </p>
+                                <a href="https://gist.github.com/seansiddens/3b8d41e5d013acbff96489f170eb81db" target="_blank" rel="noopener noreferrer" title="See on GitHub">
+                                    <img src="images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" style="width: 10%;">
+                                </a>
+                                <p><a href="images/sierpinski_chaos_game.png" target="_blank" rel="noopener noreferrer" style="color: white; font-size: small;">Click to see full image</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="images/sphere_cube.gif" target="_blank" rel="noopener noreferrer">
+                        <img src="images/sphere_cube.gif" alt="Points and lines in 3D space projected to 2D.">
                     </a>
                 </div>
               </div>
