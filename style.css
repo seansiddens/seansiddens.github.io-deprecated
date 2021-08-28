@@ -9,8 +9,12 @@ hr {
 
 }
 
+.header a {
+    color: black;
+}
+
 a {
-    color: rgb(0, 0, 0);
+    color: cornflowerblue;
 }
 
 .section-title {
