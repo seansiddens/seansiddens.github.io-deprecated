@@ -26,7 +26,6 @@ a {
     padding-left: 5%;
     padding-right: 5%;
     font-size: 18px;
-    
 }
 
 #header {
@@ -35,6 +34,7 @@ a {
 }
 
 #nav-bar a {
+    text-align: center;
     padding: 1%; 
     font-size: 18px;
 }
