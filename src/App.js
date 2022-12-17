@@ -1,10 +1,10 @@
 import React from 'react';
-import { Typography } from '@mui/material';
+import Header from './components/Header';
 
 const App = (() => {
   return (
     <div>
-      <Typography>Hello world!</Typography>
+      <Header />
     </div>
   )
 });
