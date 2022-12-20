@@ -18,7 +18,7 @@ const About = (() => {
           spacing={2}
           sx={{ flexDirection: { xs: 'column', sm: 'row' } }}
         >
-          <Grid item xs={12} sm={6}>
+          <Grid item xs={12} sm={4}>
             <Avatar
               src={Headshot}
               sx={{
