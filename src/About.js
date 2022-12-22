@@ -12,7 +12,7 @@ const About = (() => {
   return (
     <div>
       <Toolbar />
-      <Box sx={{ p: 3}}>
+      <Box sx={{ p: 3 }}>
         <Grid
           container
           spacing={2}
@@ -37,7 +37,7 @@ const About = (() => {
                 I am currently a third year computer science student attending University of California, Santa Cruz.
               </Typography>
               <Typography variant='body' paragraph={true}>
-                This site is where I like to show off some of the stuff I've made and write about things which interest me.
+                This site was written by me from scratch using React and MaterialUI.
               </Typography>
             </Container>
           </Grid>
