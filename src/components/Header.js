@@ -18,6 +18,9 @@ import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
 import ImageIcon from '@mui/icons-material/Image';
 import CreateIcon from '@mui/icons-material/Create';
 import ArticleIcon from '@mui/icons-material/Article';
+import Link from '@mui/material/Link';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 // TODO: On 'xs' size, switch to using a sidebar navigation.
 
@@ -50,6 +53,16 @@ const Header = (() => {
           >
             Sean Siddens
           </Typography>
+          <Link href='https://github.com/seansiddens'>
+            <IconButton>
+              <GitHubIcon style={{ color: '#fff' }}/>
+            </IconButton>
+          </Link>
+          <Link href='https://www.linkedin.com/in/sean-siddens-5a7929185/'>
+            <IconButton>
+              <LinkedInIcon style={{ color: '#fff' }}/>
+            </IconButton>
+          </Link>
           <Box sx={{ flexGrow: 1 }} />
           <ButtonGroup
             size='large'
@@ -69,7 +82,7 @@ const Header = (() => {
               variant='text'
               onClick={() => nav('/gallery')}
             >
-              Gallery 
+              Gallery
             </Button>
             <Button
               color='inherit'
@@ -181,7 +194,7 @@ const NavDrawer = ((props) => {
           keepMounted: true, // Better open performance on mobile.
         }}
         sx={{
-          'display': { sm: 'none'},
+          'display': { sm: 'none' },
           '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
         }}
         onClose={() => handleDrawerClick()}
