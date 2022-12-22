@@ -67,9 +67,9 @@ const Header = (() => {
             <Button
               color='inherit'
               variant='text'
-              onClick={() => nav('/portfolio')}
+              onClick={() => nav('/gallery')}
             >
-              Portfolio
+              Gallery 
             </Button>
             <Button
               color='inherit'
@@ -122,19 +122,19 @@ const NavDrawer = ((props) => {
               <ListItemText primary={'About'} />
             </ListItemButton>
           </ListItem>
-          <ListItem key={'Portfolio'} disablePadding>
+          <ListItem key={'Gallery'} disablePadding>
             <ListItemButton
               onClick={
                 () => {
                   handleDrawerClick();
-                  nav('/portfolio');
+                  nav('/gallery');
                 }
               }
             >
               <ListItemIcon>
                 <ImageIcon />
               </ListItemIcon>
-              <ListItemText primary={'Portfolio'} />
+              <ListItemText primary={'Gallery'} />
             </ListItemButton>
           </ListItem>
           <ListItem key={'Blog'} disablePadding>

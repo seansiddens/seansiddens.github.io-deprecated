@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import About from './About';
 import NotFound from './NotFound';
-import Portfolio from './Portfolio';
+import Gallery from './Gallery';
 
 export const AppContext = React.createContext();
 
@@ -17,7 +17,7 @@ const App = (() => {
         <Routes>
           <Route path='/' element={<About />}/>
           <Route path='/about' element={<About />}/>
-          <Route path='/portfolio' element={<Portfolio />}/>
+          <Route path='/gallery' element={<Gallery />}/>
           <Route path='*' element={<NotFound />}/>
         </Routes>
       </BrowserRouter>
